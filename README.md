@@ -65,15 +65,38 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+module exp1(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+xnor(y5,a,b);
+nand(y6,a,b);
+nor(y7,a,b);
+endmodule 
 
- Developed by: RegisterNumber: 
+
+
+ Developed by: RegisterNumber: 24003362
  
 **Logic symbol & Truthtable**
+![image](https://github.com/user-attachments/assets/3b5dfcc4-aa02-4b15-b504-e8ba905ae224)
+
+
+
 
 **RTL realization Output:** 
+![Screenshot (17)](https://github.com/user-attachments/assets/0342b8fc-a2c1-45cb-b8e3-64f2c2a500a6)
 
-**RTL**
+
+**Wave form**
+![Screenshot (18)](https://github.com/user-attachments/assets/6b9ce9ea-5fec-4199-8357-3448181ef57c)
+
+
+
 
 **Result:**
-
+ Thus the logic gates are executed in verilog HDL and the output is verified with the truth table.
 
