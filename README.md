@@ -67,7 +67,7 @@ Y= A⊕B
 ### module exp1(a,b,y1,y2,y3,y4,y5,y6,y7);
 ### input a,b;
 ### output y1,y2,y3,y4,y5,y6,y7;
-##3 and(y1,a,b);
+### and(y1,a,b);
 ### or(y2,a,b);
 ### not(y3,a);
 ### xor(y4,a,b);
@@ -88,7 +88,10 @@ Y= A⊕B
 
 
 
+
 # **RTL realization Output:** 
+
+
 
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/0342b8fc-a2c1-45cb-b8e3-64f2c2a500a6)
