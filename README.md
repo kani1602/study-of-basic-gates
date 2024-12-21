@@ -1,5 +1,7 @@
 # EXP1:Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog
 
+Developed by:kanishka.v     RegisterNumber: 24003362
+
 # **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -76,9 +78,6 @@ Y= A⊕B
 ### nor(y7,a,b);
 ### endmodule 
 
-
-
- Developed by:kanishka.v     RegisterNumber: 24003362
  
 # **Logic symbol & Truthtable:**
 
